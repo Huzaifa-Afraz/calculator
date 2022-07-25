@@ -1,0 +1,27 @@
+
+.cal-hed{
+    text-align: center;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin: 10px;
+    padding: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.screen{
+    padding: 24px 80px;
+    text-align: right;
+    pointer-events:none;
+    border: none;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
